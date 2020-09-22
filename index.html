@@ -4,103 +4,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Julien's Personal Site</title>
+    <title>Julien PETITPIERRE</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <table>
-        <tr>
-            <td>
-                <img src="images/portrait.png" alt="Portrait de Julien PETITPIERRE">
-            </td>
-            <td>
-                <h1>Julien PETITPIERRE</h1>
-                <p> <em> Freelance Fullstack Developer <strong> en Mousse</strong></em></p>
-                <p>I am a Signal Processing Engineer who is currently learning all the necessary concepts for Front-End
-                    Developpement </p>
-               
-            </td>
-        </tr>
-    </table>
-    <hr>
+    <div class="top-container">
+        <img class="top-cloud" src="images\cloud.png" alt="cloud">
+        <h1>I'm Julien.</h1>
+        <h2 class="h2-subtitle">a scientist and a <span class="pro">pro</span>grammer.</h2>
+        <img class="bottom-cloud" src="images\cloud.png" alt="cloud">
+        <img class="mountain" src="images\mountain.png" alt="mountain">
+    </div>
 
-    <h3>Education</h3>
-    <ul>
-        <li>Ecole supérieure d'Electricite</li>
-        <ul>
-            <li>Engineer Master Degree</li>
-            <li>GPA : 3.9</li>
-        </ul>
-        <li>Georgia Institude of Technology
-            <ul>
-                <li>Master Degree in Electrical and Computer Science</li>
-                <li>GPA : 4.0</li>
-            </ul>
-        </li>
-    </ul>
-    <hr>
-    <h3>Work Experience</h3>
-    <table cellspacing="10">
-        <thead>
-            <tr>
-                <th>
-                    Year
-                </th>
-                <th>
-                    Company
-                </th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>
-                    2015-2020
-                </td>
-                <td>
-                    Thales DMS France
-                </td>
-            </tr>
-            <tr>
-
-                <td>
-                    2015
-                </td>
-                <td>
-                    Astellia
-                </td>
-            </tr>
-        </tbody>
-    </table>
-    <hr>
-    <h3>Skills</h3>
+    <div class="middle-container">
+        <div class="profile">
+            <img class="portrait" src="images/portrait.png" alt="Portrait">
+            <h2>Hello.</h2>
+            <p class="intro">I'm an signal processing engineer who decided to dig in web development</p>
+        </div>
+        <hr>
+        <div class="skills">
+            <h2>My Skills.</h2>
+            <div class="skill-row">
+                <img class="signal-image" src="images/wireless.png" alt="signal-image">
+                <h3>Digital signal Processing</h3>
+                <p>I have a several years experience designing and implementing world class sonar signal processing
+                    chains.</p>
+            </div>
+            <div class="skill-row">
+                <img class="front-end-image" src="images/ux.png" alt="front-end-image">
+                <h3>Front End Developement</h3>
+                <p>I got an increasing knowledge in the field of Front-End Web developement including popular libraries
+                    such as React.js and GraphQl</p>
+            </div>
+            <div class="skill-row">
+                <img class="guitar-image" src="images/guitar.png" alt="guitar-image">
+                <h3>Guitar harmony Enthusiast</h3>
+                <p>I'm passionated by learning the harmony rules of occidental music, especially blues, and applying
+                    them to push further my guitar practising skills</p>
+            </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+            <h2>Get In Touch</h2>
+            <h3>You're a passionate like me ?</h3>
+            <p>You like to code websites while playing a guitar serenade to your love ? Let's play together ! </p>
+            <a class="btn" href="mailto:petitpierre.julien@gmail.com">CONTACT ME</a>
+        </div>
+    </div>
 
 
-    <table cellspacing="10">
-
-        <tr>
-            <td>
-                Digital Signal Processing
-            </td>
-            <td>
-                ⭐ ⭐ ⭐ ⭐
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Water Acoustics
-            </td>
-            <td>
-                ⭐ ⭐ ⭐
-            </td>
-        </tr>
+    <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/in/julien-petitpierre-21929372"> <img class = "linkedin" src="images/linkedin.png" alt=""> </a>
+        <p class="copyright">© 2020 Julien PETITPIERRE.</p>
+        Icons made by <a href="https://www.flaticon.com/authors/srip" title="srip">srip</a> from <a
+            href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+        Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a
+            href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+        Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a
+            href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
 
 
-    </table>
-
-    <hr>
-    <a href="hobbies.html">My Hobbies</a>
-    <a href="contact_me.html">Contact Me</a>
-
+    </div>
 </body>
 
 </html>

@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: #435350;
+}
+
+h1 {
+  margin-top: 0;
+  font-family: "Dancing Script", cursive;
+  font-size: 5.625rem;
+  color: #66bfbf;
+  margin-bottom: 50px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 2.5rem;
+  color: #66bfbf;
+}
+
+.h2-subtitle {
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999e;
+}
+
+p{
+  line-height: 2;
+}
+
+hr {
+  border: none;
+  border-top: thick dotted grey;
+  margin: 100px auto;
+  width: 4%;
+}
+
+a {
+  color: #11999e;
+}
+.pro {
+  text-decoration: underline;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 50px;
+}
+
+.profile {
+  margin: 50px auto 50px auto;
+}
+
+.intro{
+  width: 30%;
+  margin:auto auto;
+}
+
+.skills {
+  margin: 50px auto 50px auto;
+}
+
+.contact-me {
+  margin-top: 50px;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+}
+
+.top-cloud {
+  position: absolute;
+  left: 70%;
+  top: 0%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  right: 70%;
+}
+
+.portrait {
+  width: 15%;
+  margin: 30px auto 30px auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 120px auto;
+  text-align: left;
+  
+}
+
+.signal-image {
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+}
+
+.front-end-image {
+  width: 15%;
+  float: right;
+  margin-right: 30px;
+}
+
+.guitar-image {
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+}
+
+.btn {
+  background-color: #66bfbf;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  padding: 16px 46px;
+  text-decoration: none;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.btn:hover {
+  background-color: #254646;
+}
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+.footer-link {
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px;
+}
+
+.linkedin{
+width: 5%;
+margin-top: 10px;
+}
+
+.copyright {
+  color: white;
+  font-size: small;
+  margin: 10px;
+}
