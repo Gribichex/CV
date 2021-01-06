@@ -1,74 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Julien PETITPIERRE</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="favicon.ico">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-</head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <div class="top-container">
-        <img class="top-cloud" src="images\cloud.png" alt="cloud">
-        <h1>I'm Julien.</h1>
-        <h2 class="h2-subtitle">a scientist and a <span class="pro">pro</span>grammer.</h2>
-        <img class="bottom-cloud" src="images\cloud.png" alt="cloud">
-        <img class="mountain" src="images\mountain.png" alt="mountain">
+      <div id="videowrapper">
+        <div id="fullScreenDiv">
+          <video
+            id="video"
+            role="presentation"
+            preload="auto"
+            playsinline=""
+            crossorigin="anonymous"
+            loop=""
+            muted=""
+            autoplay=""
+            class="blur"
+          >
+            <source src="images\VID_20201002_085354.mp4" type="video/mp4" />
+          </video>
+          
+          <div id="videoMessage" class="styling">
+            <h1>I'm Julien.</h1>
+            <h2 class="h2-subtitle">
+              a scientist and a <span class="pro">pro</span>grammer.
+            </h2>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="middle-container">
-        <div class="profile">
-            <img class="portrait" src="images/portrait.png" alt="Portrait">
-            <h2>Hello.</h2>
-            <p class="intro">I'm an signal processing engineer who decided to dig in web development</p>
+      <div class="profile">
+        <img class="portrait" src="images/portrait.png" alt="Portrait" />
+        <h2>Hello.</h2>
+        <p class="intro">
+          I'm an signal processing engineer who decided to dig in web
+          development
+        </p>
+      </div>
+      <hr />
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img
+            class="signal-image"
+            src="images/wireless.png"
+            alt="signal-image"
+          />
+          <h3>Digital signal Processing</h3>
+          <p>
+            I have a several years experience designing and implementing world
+            class sonar signal processing chains.
+          </p>
         </div>
-        <hr>
-        <div class="skills">
-            <h2>My Skills.</h2>
-            <div class="skill-row">
-                <img class="signal-image" src="images/wireless.png" alt="signal-image">
-                <h3>Digital signal Processing</h3>
-                <p>I have a several years experience designing and implementing world class sonar signal processing
-                    chains.</p>
-            </div>
-            <div class="skill-row">
-                <img class="front-end-image" src="images/ux.png" alt="front-end-image">
-                <h3>Front End Developement</h3>
-                <p>I got an increasing knowledge in the field of Front-End Web developement including popular libraries
-                    such as React.js and GraphQl</p>
-            </div>
-            <div class="skill-row">
-                <img class="guitar-image" src="images/guitar.png" alt="guitar-image">
-                <h3>Guitar harmony Enthusiast</h3>
-                <p>I'm passionated by learning the harmony rules of occidental music, especially blues, and applying
-                    them to push further my guitar practising skills</p>
-            </div>
+        <div class="skill-row">
+          <img
+            class="front-end-image"
+            src="images/ux.png"
+            alt="front-end-image"
+          />
+          <h3>Front End Developement</h3>
+          <p>
+            I got an increasing knowledge in the field of Front-End Web
+            developement including popular libraries such as React.js and
+            GraphQl
+          </p>
         </div>
-        <hr>
-        <div class="contact-me">
-            <h2>Get In Touch</h2>
-            <h3>You're a passionate like me ?</h3>
-            <p>You like to code websites while playing a guitar serenade to your love ? Let's play together ! </p>
-            <a class="btn" href="mailto:petitpierre.julien@gmail.com">CONTACT ME</a>
+        <div class="skill-row">
+          <img
+            class="guitar-image"
+            src="images/guitar.png"
+            alt="guitar-image"
+          />
+          <h3>Guitar harmony Enthusiast</h3>
+          <p>
+            I'm passionated by learning the harmony rules of occidental music,
+            especially blues, and applying them to push further my guitar
+            practising skills
+          </p>
         </div>
+      </div>
+      <hr />
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>You're a passionate like me ?</h3>
+        <p>
+          You like to code websites while playing a guitar serenade to your love
+          ? Let's play together !
+        </p>
+        <a class="btn" href="mailto:petitpierre.julien@gmail.com">CONTACT ME</a>
+      </div>
     </div>
-
 
     <div class="bottom-container">
-        <a class="footer-link" href="https://www.linkedin.com/in/julien-petitpierre-21929372"> <img class = "linkedin" src="images/linkedin.png" alt=""> </a>
-        <p class="copyright">© 2020 Julien PETITPIERRE.</p>
-        Icons made by <a href="https://www.flaticon.com/authors/srip" title="srip">srip</a> from <a
-            href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
-        Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a
-            href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
-        Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a
-            href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
-
-
+      <a
+        class="footer-link"
+        href="https://www.linkedin.com/in/julien-petitpierre-21929372"
+      >
+        <img class="linkedin" src="images/linkedin.png" alt="" />
+      </a>
+      <p class="copyright">© 2020 Julien PETITPIERRE.</p>
+      Icons made by
+      <a href="https://www.flaticon.com/authors/srip" title="srip">srip</a> from
+      <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+      Icons made by
+      <a href="https://www.flaticon.com/authors/freepik" title="Freepik"
+        >Freepik</a
+      >
+      from
+      <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+      Icons made by
+      <a href="https://www.flaticon.com/authors/freepik" title="Freepik"
+        >Freepik</a
+      >
+      from
+      <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
     </div>
-</body>
-
+  </body>
 </html>
